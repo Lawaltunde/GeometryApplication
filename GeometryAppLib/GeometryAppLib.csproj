@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\GeometryAppConsole\GeometryAppConsole.csproj" />
-    <ProjectReference Include="..\GeometryAppTest\GeometryAppTest.csproj" />
+  
   </ItemGroup>
 
   <PropertyGroup>
