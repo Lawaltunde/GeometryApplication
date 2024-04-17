@@ -1,1 +1,24 @@
 namespace GeometryApp.GeometryAppLib;
+
+using interfaces;
+
+public class Triangle : IShape
+{
+    private double baseOfTriangle;
+    private double height;
+
+    public Triangle(double baseOfTriangle, double height){
+        this.baseOfTriangle = baseOfTriangle;
+        this.height = height;    
+    }
+
+    public double CalculateArear(){
+        return (baseOfTriangle * height) * 0.5;
+    }
+
+    public double CalculatePerimeter(){
+        double halfBase = 0.5 * baseOfTriangle;
+        double hypoteneous = Math.Sqrt(Math.Pow(halfBase, 2) + Math.Pow(height, 2));
+        return halfBase + hypoteneous + height;
+    }
+}
