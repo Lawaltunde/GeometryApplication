@@ -12,7 +12,7 @@ public class SquareTests
         //calling area method
         var result = square.CalculateArear();
 
-        //calling square method
+        //calling square method: Act
         var result2 = square.CalculatePerimeter();
 
         //Assert
