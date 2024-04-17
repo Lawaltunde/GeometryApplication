@@ -33,8 +33,8 @@ if(await featureManager.IsEnabledAsync("Square") && await featureManager.IsEnabl
 
     if(double.TryParse(Console.ReadLine(), out result)){
         Square square = new Square(result);
-        Console.WriteLine("Area of Square is {0}: ", square.CalculateArear());
-        Console.WriteLine("Perimeter of Square is {0}: ", square.CalculatePerimeter());
+        Console.WriteLine("Area of Square is: {0}msqr ", square.CalculateArear());
+        Console.WriteLine("Perimeter of Square is: {0}m", square.CalculatePerimeter());
     }
 Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
     Console.WriteLine("Enter value for base");
@@ -49,8 +49,8 @@ Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         {
             if(double.TryParse(height, out heightthResult)){
                 Triangle triangle = new Triangle(baseResult, heightthResult);
-                Console.WriteLine("Area of a triangle is {0} :", triangle.CalculateArear());
-                Console.WriteLine("Perimeter of a triangle is {0}:", triangle.CalculatePerimeter());      
+                Console.WriteLine("Area of a triangle is: {0}msqr", triangle.CalculateArear());
+                Console.WriteLine("Perimeter of a triangle is: {0}m", triangle.CalculatePerimeter());      
             }
         }
 
@@ -66,8 +66,8 @@ else
 
         if(double.TryParse(Console.ReadLine(), out result)){
             Square square = new Square(result);
-            Console.WriteLine("Area of Square is {0}: ", square.CalculateArear());
-            Console.WriteLine("Perimeter of Square is {0}: ", square.CalculatePerimeter());
+            Console.WriteLine("Area of Square is: {0}msqr ", square.CalculateArear());
+            Console.WriteLine("Perimeter of Square is: {0}m ", square.CalculatePerimeter());
         }
     Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         double lenghtResult;
@@ -83,8 +83,8 @@ else
         {
             if(double.TryParse(breadth, out breadthResult)){
                 Rectangle rectangle = new Rectangle(lenghtResult, breadthResult);
-                Console.WriteLine("Area of rectangle is {0}: ", rectangle.CalculateArear());
-                Console.WriteLine("Perimeter of rectangle is {0}: ", rectangle.CalculatePerimeter());
+                Console.WriteLine("Area of rectangle is: {0}msqr ", rectangle.CalculateArear());
+                Console.WriteLine("Perimeter of rectangle is: {0}m ", rectangle.CalculatePerimeter());
             }
         }
     }
@@ -101,8 +101,8 @@ else
 
         if(double.TryParse(Console.ReadLine(), out result)){
             Square square = new Square(result);
-            Console.WriteLine("Area of Square is {0}: ", square.CalculateArear());
-            Console.WriteLine("Perimeter of Square is {0}: ", square.CalculatePerimeter());
+            Console.WriteLine("Area of Square is: {0}msqr ", square.CalculateArear());
+            Console.WriteLine("Perimeter of Square is: {0}m ", square.CalculatePerimeter());
         }
     }
 
@@ -123,8 +123,8 @@ else
         {
             if(double.TryParse(breadth, out breadthResult)){
                 Rectangle rectangle = new Rectangle(lenghtResult, breadthResult);
-                Console.WriteLine("Area of rectangle is {0}: ", rectangle.CalculateArear());
-                Console.WriteLine("Perimeter of rectangle is {0}: ", rectangle.CalculatePerimeter());
+                Console.WriteLine("Area of rectangle is: {0}msqr ", rectangle.CalculateArear());
+                Console.WriteLine("Perimeter of rectangle is: {0}m ", rectangle.CalculatePerimeter());
             }
         }
     }
@@ -144,8 +144,8 @@ else
         {
             if(double.TryParse(height, out heightthResult)){
                 Triangle triangle = new Triangle(baseResult, heightthResult);
-                Console.WriteLine("Area of a triangle is {0} :", triangle.CalculateArear());
-                Console.WriteLine("Perimeter of a triangle is {0}:", triangle.CalculatePerimeter());      
+                Console.WriteLine("Area of a triangle is {0}: msqr", triangle.CalculateArear());
+                Console.WriteLine("Perimeter of a triangle is: {0}m ", triangle.CalculatePerimeter());      
             }
         }
     }
