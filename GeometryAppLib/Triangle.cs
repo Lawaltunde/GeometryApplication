@@ -18,7 +18,7 @@ public class Triangle : IShape
 
     public double CalculatePerimeter(){
         double halfBase = 0.5 * baseOfTriangle;
-        double hypoteneous = Math.Sqrt(Math.Pow(halfBase, 2) + Math.Pow(height, 2));
-        return halfBase + hypoteneous + height;
+        double hypotenuse = Math.Sqrt(Math.Pow(halfBase, 2) + Math.Pow(height, 2));
+        return halfBase + hypotenuse + height;
     }
 }
