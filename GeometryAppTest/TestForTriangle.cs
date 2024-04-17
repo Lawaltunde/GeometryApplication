@@ -1,7 +1,7 @@
-namespace GeometryAppTest;
+namespace GeometryApp.GeometryAppTest;
 
 [TestClass]
-public class UnitTest1
+public class TestForTriangle
 {
     [TestMethod]
     public void TestMethod1()
